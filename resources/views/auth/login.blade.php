@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<h1>Desde login</h1>
+<h1>Desde loginex</h1>
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">

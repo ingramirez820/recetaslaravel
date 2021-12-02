@@ -1,3 +1,4 @@
+@extends('layouts.app')
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
@@ -78,7 +79,9 @@
                     @endauth
                 </div>
             @endif
-
+            @section('content')
+            <example-component></example-component>
+            @endsection
             <div class="content">
                 <div class="title m-b-md">
                     Recetas Laravel

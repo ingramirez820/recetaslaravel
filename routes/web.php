@@ -12,13 +12,17 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/',function(){
+/* Route::get('/',function(){
     return view('welcome');
-});
-Route::get('/recetas', 'RecetaController@index');
+}); */
+Route::get('/recetas', 'RecetaController@index')->name('recetas.index');
 Route::get('/recetas/create', 'RecetaController@create')->name('recetas.create');
 
 Auth::routes();
 
 /* Route::get('/home','HomeController@index')->name('home'); */
 
+
+Auth::routes();
+
+/* Route::get('/home', 'HomeController@index')->name('home'); */

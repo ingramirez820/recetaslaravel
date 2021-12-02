@@ -25,9 +25,4 @@ Route::get('/recetas/create', 'RecetaController@create')->name('recetas.create')
 
 Auth::routes();
 
-/* Route::get('/home','HomeController@index')->name('home'); */
-
-
-Auth::routes();
-
 /* Route::get('/home', 'HomeController@index')->name('home'); */

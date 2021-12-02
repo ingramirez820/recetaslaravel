@@ -79,9 +79,7 @@
                     @endauth
                 </div>
             @endif
-            @section('content')
-            <example-component></example-component>
-            @endsection
+            
             <div class="content">
                 <div class="title m-b-md">
                     Recetas Laravel

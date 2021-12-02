@@ -74,9 +74,9 @@
         <div class="container">
             <div class="row">
                 @yield('botones')
-                <main class="py-4 col-12">
-                    @yield('content')
-                </main>
+            <main class="py-4 col-12">
+                @yield('content')
+            </main>
             </div>
         </div>
         

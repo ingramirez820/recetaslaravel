@@ -73,13 +73,23 @@
         </nav>
         <div class="container">
             <div class="row">
+<<<<<<< HEAD
                 @yield('botones')
                 <main class="py-4 col-12 mb-4">
+=======
+                <div class="py-4 mt-5 col-12">
+                @yield('botones')
+                </div>
+                <main class="py-4 mt-5 col-12">
+>>>>>>> 4d0c514002dd06db64ce912fce3fd7e9373dec1c
                     @yield('content')
                 </main>
             </div>
         </div>
+<<<<<<< HEAD
         
+=======
+>>>>>>> 4d0c514002dd06db64ce912fce3fd7e9373dec1c
     </div>
 </body>
 </html>

@@ -14,8 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 /* Route::get('/',function(){
     return view('welcome');
+<<<<<<< HEAD
 }); */
 Route::get('/recetas', 'RecetaController@index')->name('recetas.index');
+=======
+});
+
+>>>>>>> 4d0c514002dd06db64ce912fce3fd7e9373dec1c
 Route::get('/recetas/create', 'RecetaController@create')->name('recetas.create');
 
 Auth::routes();
